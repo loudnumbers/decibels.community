@@ -16,6 +16,7 @@ body {
     color: #FFFDF1;
     text-align: center;
     width: 40%;
+    max-width: 33em;
     margin: 3em auto;
     padding-top: 2em;
 }
