@@ -15,7 +15,7 @@ body {
 .text {
     color: #FFFDF1;
     text-align: center;
-    width: 33em;
+    width: 40%;
     margin: 3em auto;
     padding-top: 2em;
 }
@@ -76,4 +76,25 @@ body a {
 
 body a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+    .text {
+        width: 90%;
+        margin: 1em auto;
+    }
+
+    h1 {
+        font-size: 400%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    ul {
+        font-size: 100%;
+        line-height: 150%;
+    }
 }
