@@ -1,0 +1,79 @@
+body {
+    font-family: "Inter";
+    background-color: #173561;
+    margin: 0
+}
+
+#biglogo {
+    width: 100%;
+    height: 25em;
+    background-image: url("/img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text {
+    color: #FFFDF1;
+    text-align: center;
+    width: 33em;
+    margin: 3em auto;
+    padding-top: 2em;
+}
+
+.invite {
+    font-size: 180%;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0.5em;
+    margin: 1.5em 0;
+    border-radius: 1em;
+    background-color: #FFFDF1;
+
+}
+
+.invite {
+    text-decoration: none;
+    color: #173561;
+}
+
+.invite:hover {
+    text-decoration: none;
+    background-color: #FF7272;
+}
+
+.small {
+    font-size: 90%;
+}
+
+ul {
+    text-align: left;
+    font-size: 120%;
+    line-height: 140%;
+}
+
+h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #FF7272;
+    font-size: 600%;
+    line-height: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 210%;
+}
+
+p {
+    font-weight: 400;
+}
+
+body a {
+    color: #FF7272;
+    text-decoration: none;
+}
+
+body a:hover {
+    text-decoration: underline;
+}
